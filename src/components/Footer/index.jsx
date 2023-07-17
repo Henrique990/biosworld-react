@@ -3,6 +3,11 @@ import discord from "../../../public/discord.png";
 import email from "../../../public/email.png";
 import twitter from "../../../public/twitter.png";
 import telegran from "../../../public/telegran.png";
+import facebook from "../../../public/facebook.png";
+import youtube from "../../../public/youtube.png";
+import medium from "../../../public/medium.png";
+import document from "../../../public/document.png";
+import doubletick from "../../../public/double-tick.png";
 
 export default function Footer() {
   return (
@@ -112,80 +117,98 @@ export default function Footer() {
     //     </div>
     //   </div>
     // </div>
-    <footer className="bg-[#142930] h-[25rem] md:h-[43rem] xl:h-[50rem] p-2 md:p-6 leading-7 text-[#C1C1C1] space-y-10">
+    <footer className="bg-[#142930] md:h-[43rem] xl:h-[50rem] p-2 md:p-6 leading-7 text-[#C1C1C1] space-y-10">
       <img className="xl:ml-[11%] 2xl:ml-[12%]" alt="Logo BiosWorld" src={bios} />
-      <div className="flex flex-row justify-around text-base xl:text-base 2xl:text-2xl xl:mx-28">
-        <div className="container">
-          <div className="hidden md:block md:w-[70%] space-y-5">
-            <p>
-              Bios World Driving Environmental Change through Community and
-              Blockchain
-            </p>
-            <p>
-              We take great pride in our team of passionate specialists who are
-              deeply committed to protecting the environment and promoting
-              biodiversity. Our main goal is to raise awareness among the
-              blockchain community about these essential pursuits. Through a
-              range of dynamic initiatives, including the NFT marketplace,
-              Vote-to-Earn (v2E), Educational Driven Play to Earn (P2E),
-              crowdfunding, Rate to Earn (R2E), and Stake to Earn (S2E), we aim
-              to empower individuals to make a positive impact.
-            </p>
-            <p>
-              Together, we can create a greener and more sustainable future,
-              where blockchain technology becomes a catalyst for environmental
-              change. Join us in our mission and let's shape a better world for
-              generations to come!
-            </p>
+      <div className="flex justify-center">
+        <div className="flex flex-row justify-around text-base max-w-[1520px] xl:text-base 2xl:text-2xl xl:mx-28">
+          <div className="container">
+            <div className="hidden md:block md:w-[70%] space-y-5">
+              <p>
+                Bios World Driving Environmental Change through Community and
+                Blockchain
+              </p>
+              <p>
+                We take great pride in our team of passionate specialists who are
+                deeply committed to protecting the environment and promoting
+                biodiversity. Our main goal is to raise awareness among the
+                blockchain community about these essential pursuits. Through a
+                range of dynamic initiatives, including the NFT marketplace,
+                Vote-to-Earn (v2E), Educational Driven Play to Earn (P2E),
+                crowdfunding, Rate to Earn (R2E), and Stake to Earn (S2E), we aim
+                to empower individuals to make a positive impact.
+              </p>
+              <p>
+                Together, we can create a greener and more sustainable future,
+                where blockchain technology becomes a catalyst for environmental
+                change. Join us in our mission and let's shape a better world for
+                generations to come!
+              </p>
+            </div>
           </div>
-        </div>
-        <ul className="xl:space-y-4 pt-[2.75rem]">
-          <li className="hover:text-green-300">
-            <a href="#">About us</a>
-          </li>
-          <li className="hover:text-green-300">
-            <a href="#">Tokenomics</a>
-          </li>
-          <li className="hover:text-green-300">
-            <a href="#">Charity Ambassadors</a>
-          </li>
-          <li className="hover:text-green-300">
-            <a href="#">Roadmap</a>
-          </li>
-          <li className="hover:text-green-300">
-            <a href="#">Whitepaper</a>
-          </li>
-          <li className="hover:text-green-300">
-            <a href="#">NFT's</a>
-          </li>
-        </ul>
-        <div className="ml-2 lg:ml-12">
-          <h3 className="text-xl">Follow us on</h3>
-          <ul className="space-y-1 xl:space-y-4 mt-4">
-            <li className="flex flex-row space-x-2">
-              <img alt="Logo Telegran" src={telegran} />
-              <a href="https://t.me/+SHC0-kzuABk0NGQ5">Telegran</a>
+          <ul className="xl:space-y-4 pt-[2.75rem]">
+            <li className="hover:text-green-300">
+              <a href="#s">About us</a>
             </li>
-            <li className="flex flex-row space-x-2">
-              <img alt="Logo Twitter" src={twitter} />
-              <a href="https://medium.com/@biosworld23">Twitter</a>
+            <li className="hover:text-green-300">
+              <a href="#">Tokenomics</a>
             </li>
-            <li className="flex flex-row space-x-2">
-              <img alt="Logo Discord" src={discord} />
-              <a href="#">Discord</a>
+            <li className="hover:text-green-300">
+              <a href="#">Charity Ambassadors</a>
             </li>
-            <li className="flex flex-row space-x-2">
-              <img alt="Support biosworld" src={email} />
-              <a href="#">support@biosworld.io</a>
+            <li className="hover:text-green-300">
+              <a href="#roadmap">Roadmap</a>
             </li>
-            <li>
-              <a href="#">Privacy Policy</a>
+            <li className="hover:text-green-300">
+              <a href="#">Whitepaper</a>
             </li>
-            <li>
-              <a href="#">Terms of Service</a>
+            <li className="hover:text-green-300">
+              <a href="#">NFT's</a>
             </li>
           </ul>
+          <div className="ml-2 lg:ml-12">
+            <h3 className="text-xl">Follow us on</h3>
+            <ul className="space-y-1 xl:space-y-4 mt-4">
+              <li className="flex flex-row space-x-2">
+                <img alt="Logo Telegran" src={telegran} />
+                <a href="https://t.me/+SHC0-kzuABk0NGQ5">Telegran</a>
+              </li>
+              <li className="flex flex-row space-x-2">
+                <img alt="Logo Twitter" src={twitter} />
+                <a href="https://medium.com/@biosworld23">Twitter</a>
+              </li>
+              <li className="flex flex-row space-x-2">
+                <img alt="Logo Discord" src={discord} />
+                <a href="#">Discord</a>
+              </li>
+              <li className="flex flex-row space-x-2">
+                <img alt="Logo Discord" src={facebook} />
+                <a href="https://www.facebook.com/biosworld">Facebook</a>
+              </li>
+              <li className="flex flex-row space-x-2">
+                <img alt="Logo Discord" src={youtube} />
+                <a href="https://www.youtube.com/channel/UCIN-JdOQFvMN82zxhLY6lkQ">youtube</a>
+              </li>
+              <li className="flex flex-row space-x-2">
+                <img alt="Logo Discord" src={medium} />
+                <a href="https://medium.com/@biosworld23">medium</a>
+              </li>
+              
+              <li className="flex flex-row space-x-2">
+                <img alt="Support biosworld" src={email} />
+                <a href="">support@biosworld.io</a>
+              </li>
+              <li className="flex flex-row space-x-2">
+              <img alt="Privacy Policy" src={document} />
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li className="flex flex-row space-x-2">
+              <img alt="Privacy Policy" src={doubletick} />
+                <a href="#">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
         </div>
+
       </div>
 
       <p className="flex justify-center text-base lg:text-3xl 2xl:pt-10">

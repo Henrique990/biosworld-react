@@ -111,7 +111,7 @@ export default function Roadmap() {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-full xl:[121.87rem] relative px-2 pb-20">
+    <div id="roadmap" className="w-full xl:[121.87rem] relative px-2 pb-20">
       <img
         alt="raccoon"
         className="max-w-[50.12rem] w-[60%] md:w-[40%] absolute right-0 top-[20%] lg:top-14"

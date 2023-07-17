@@ -11,12 +11,12 @@ import {
 } from "@material-tailwind/react";
 
 // import Image from "next/image";
-import luz1 from "../../../public/Ellipse 5 (1).png"
-import luz from "../../../public/Ellipse 3.png"
+import luz1 from "../../../public/Ellipse 5 (1).png";
+import luz from "../../../public/Ellipse 3.png";
 import logo from "../../../public/img/home/bios.png";
 import arrow from "../../../public/img/home/Arrow 1.png";
 // import group from "../../../public/H-bg-min.png";
-import tree from "../../../public/h-tree-min.png"
+import tree from "../../../public/h-tree-min.png";
 // import bg from "../../../public/img/home/H-bg.png";
 import tigerr from "../../../public/Tiger.png";
 // import zebra from "../../../public/img/home/zebra 2.png";
@@ -34,6 +34,11 @@ export default function Home() {
     );
   }, []);
 
+  const handleClick = (e) => {
+    document.querySelector("#secao1").scrollIntoView({ behavior: "smooth" });
+    return false;
+  };
+
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
@@ -41,8 +46,9 @@ export default function Home() {
         variant="small"
         color="white"
         className="p-1 font-normal"
+        onClick={handleClick}
       >
-        <a href="#" className="flex items-center">
+        <a href="#home" className="flex items-center">
           Home
         </a>
       </Typography>
@@ -52,7 +58,7 @@ export default function Home() {
         color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#about" className="flex items-center">
           About
         </a>
       </Typography>
@@ -62,7 +68,7 @@ export default function Home() {
         color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#tokenomics" className="flex items-center">
           Tokenomics
         </a>
       </Typography>
@@ -72,7 +78,7 @@ export default function Home() {
         color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#roadmap" className="flex items-center">
           Roadmap
         </a>
       </Typography>
@@ -82,7 +88,7 @@ export default function Home() {
         color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#howtobuy" className="flex items-center">
           How to Buy
         </a>
       </Typography>
@@ -92,7 +98,7 @@ export default function Home() {
         color="white"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#faq" className="flex items-center">
           FAQ
         </a>
       </Typography>
@@ -100,14 +106,14 @@ export default function Home() {
   );
 
   return (
-    <div className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden bg-[rgba(217,_217,_217,_0.05)]">
+    <header className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden bg-[rgba(80,194,120,0.35)]">
       <img
         className="absolute object-cover w-full h-full"
         src="/H-bg-min.png"
         alt="imagem de fundo"
       />
       <div className="flex flex-col justify-center">
-        <Navbar className="container sticky top z-10 h-max max-w-full bg- border-none rounded-none py-2 px-4 lg:px-8 lg:py-4">
+        <Navbar className="container fixed top-0 z-50 h-max max-w-full bg-green-800 border-none rounded-none py-2 px-4 lg:px-8 lg:py-4">
           <div className="flex items-center justify-between lg:justify-around ">
             {/* <Typography
             as="a"
@@ -117,7 +123,7 @@ export default function Home() {
             Material Tailwind
           </Typography> */}
             <img className="w-24 lg:w-40" src={logo} alt="nature image" />
-            <div className="flex items-center gap-4">
+            <div className="flex justify-center items-center  gap-4">
               <div className="mr-4 hidden lg:block">{navList}</div>
               {/* <Button
               variant="gradient"
@@ -202,12 +208,20 @@ export default function Home() {
               <img src={arrow} alt="arrow" />
             </Button>
           </div>
-            <img className="w-1/2 lg:w-1/3 absolute right-0 bottom-0  z-10 " src={tigerr} alt="tiger" />
-            <img className="absolute right-0 bottom-0 z-0" src={tree} alt="tree" />
-            <img className="absolute w-full top-0  bg-repeat" src={luz} alt="Luz verde" />
-            <img className="absolute top-0" src={luz1} alt="Luz verder" />
+          <img
+            className="w-1/2 lg:w-1/3 absolute right-0 bottom-0  z-10 "
+            src={tigerr}
+            alt="tiger"
+          />
+          <img
+            className="absolute right-0 bottom-0 z-0"
+            src={tree}
+            alt="tree"
+          />
+          {/* <img className="absolute w-[30rem] lg:w-[200rem] top-0 right-0 bg-repeat" src={luz} alt="Luz verde" />
+            <img className="absolute top-0" src={luz1} alt="Luz verder" /> */}
         </div>
       </div>
-    </div>
+    </header>
   );
 }
