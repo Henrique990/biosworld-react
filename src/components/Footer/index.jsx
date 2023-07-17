@@ -167,7 +167,7 @@ export default function Footer() {
               <a href="#roadmap">Roadmap</a>
             </li>
             <li className="hover:text-green-300">
-              <a href="#">Whitepaper</a>
+              <a href="/biosword pitchdeck.pdf">Whitepaper</a>
             </li>
           </ul>
           <div className="ml-4 mr-[10%] lg:ml-12">
