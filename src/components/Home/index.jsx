@@ -106,7 +106,7 @@ export default function Home() {
   );
 
   return (
-    <header className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden bg-[rgba(80,194,120,0.35)]">
+    <header className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden">
       <img
         className="absolute object-cover w-full h-full"
         src="/H-bg-min.png"
@@ -193,7 +193,7 @@ export default function Home() {
               className="text-3xl lg:text-6xl 2xl:text-7xl font-['Cattino'] leading-10 text-white justify-start relative lg:max-w-3xl 2xl:max-w-4xl z-10"
             >
               Meme animals trading pixels for petals in their grand home coming
-              to the <span className="text-[#40A072]">Flora-Fauna Fiesta</span>
+              to the <span className="text-[#39f89c]">Flora-Fauna Fiesta</span>
             </Typography>
             <Typography className="font-normal text-[#EAEAEA] relative z-10">
               Bios World is proud to call Earth our home! While some may dream

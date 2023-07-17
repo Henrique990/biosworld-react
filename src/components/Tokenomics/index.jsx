@@ -17,7 +17,7 @@ export default function Tokenomics() {
         </div>
       </div>
       <img
-        className="absolute top-0 left-0 md:w-[50%]"
+        className="absolute top-0 left-0 w-[70%] md:w-[50%] "
         src={preguiça}
         alt="shoth"
       />
