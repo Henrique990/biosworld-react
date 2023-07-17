@@ -147,10 +147,10 @@ export default function Footer() {
           </div>
           <ul className="xl:space-y-4 pt-[2.75rem]">
             <li className="hover:text-green-300">
-              <a href="#s">About us</a>
+              <a href="#about">About us</a>
             </li>
             <li className="hover:text-green-300">
-              <a href="#">Tokenomics</a>
+              <a href="#tokenomics">Tokenomics</a>
             </li>
             <li className="hover:text-green-300">
               <a href="#">Charity Ambassadors</a>

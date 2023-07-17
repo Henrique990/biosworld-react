@@ -1,6 +1,8 @@
 import monkey from "../../../public/nature-monkey.png";
 import rabit from "../../../public/rabit.png";
 import lacoste from "../../../public/lacost.png";
+import tartaruga from "../../../public/tartaruga.png";
+import lion from "../../../public/lion.png";
 
 export default function HowToBuySection() {
   return (
@@ -8,7 +10,7 @@ export default function HowToBuySection() {
       <img className="absolute bottom-0 w-full h-full object-fill" src={monkey} alt="monkey" />
       <div className="flex justify-center">
         <div className="relative flex flex-col justify-center gap-10 max-w-[82.33rem] items-stretch mt-12">
-          <img className="absolute top-10 md:-top-4 lg:top-8 right-1/4 w-12 md:w-28 2xl:top-0 2xl:w-40" src={rabit} alt="rabit" />
+          <img className="absolute top-2 md:-top-4 lg:top-8 right-1/4 w-20 md:w-28 2xl:top-0 2xl:w-40" src={rabit} alt="rabit" />
           <div className="text-2xl lg:text-5xl font-['Cattino'] lg:leading-[72px] text-[#3e986f] self-start lg:w-1/2">
             1. Meme-ify Your Mobile:
           </div>
@@ -21,7 +23,7 @@ export default function HowToBuySection() {
             </div>
           </div>
           <div className="max-w-[82.33rem] relative">
-          <img className="absolute top-10 md:-top-4 lg:top-5 right-1/4 w-12 md:w-28 2xl:top-0 2xl:w-40" src={lacoste} alt="rabit" />
+          <img className="absolute top-6 md:-top-4 lg:top-8 right-1/4 w-20 md:w-28 2xl:top-0 2xl:w-40" src={tartaruga} alt="rabit" />
             <div className="text-2xl lg:text-5xl font-['Cattino'] mb-10 lg:leading-[72px] text-[#3e986f] self-start lg:w-3/5">
               2. Feed Your Wallet with BNB:
             </div>
@@ -36,7 +38,7 @@ export default function HowToBuySection() {
             </div>
           </div>
           <div className="max-w-[82.33rem] relative">
-            <img className="absolute top-10 lg:top-5 right-1/4 w-12 md:w-28 2xl:top-0 2xl:w-40" src={rabit} alt="rabit" />
+          <img className="absolute top-10 md:-top-4 lg:top-8 right-1/4 w-24 md:w-36 2xl:top-0 2xl:w-40" src={lacoste} alt="rabit" />
             <div className="text-2xl lg:text-5xl font-['Cattino'] lg:leading-[72px] text-[#3e986f] mb-10 lg:mr-[426px]">
               3. Unleash the Power of Uniswap:
             </div>
@@ -51,7 +53,7 @@ export default function HowToBuySection() {
             </div>
           </div>
           <div className="max-w-[82.33rem] relative">
-            <img className="absolute top-10 lg:top-5 right-1/4 w-12 md:w-28 2xl:top-0 2xl:w-40" src={rabit} alt="rabit" />
+          <img className="absolute top-4 md:-top-4 lg:top-8 right-1/4 w-20 md:w-28 2xl:top-0 2xl:w-40" src={lion} alt="rabit" />
           <div className="text-2xl lg:text-5xl font-['Cattino'] lg:leading-[72px] text-[#3e986f] mb-10 ml-0 lg:mr-[426px]">
             4. Make the Swap:
           </div>
