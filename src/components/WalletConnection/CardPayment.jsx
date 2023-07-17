@@ -18,7 +18,7 @@ export default function CardPayment() {
         <MyPage />
         <div className="group-two flex w-full h-5 rounded-md border border-gray-500 hover:border-green-300 bg-gray-700">
           <div className="bg-green-600 border-0 rounded-md text-sm px-4">
-            <p>Until Next Price: $0.0000324</p>
+            <p>Until Next Price: $0.00008</p>
           </div>
         </div>
         <div className="group-tree flex justify-center text-xs">
