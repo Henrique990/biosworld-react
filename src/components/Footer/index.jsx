@@ -195,7 +195,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/BIOSW Terms_Of_Service (2).pdf (1).zip">
+                <a href="/Biosworld_Privacy_Policy.zip">
                 <img alt="Privacy Policy" src={document} />
                 </a>
               </li>
@@ -205,8 +205,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="">
-                <img alt="Privacy Policy" src={doubletick} />
+                <a href="/BIOSW Terms_Of_Service (2).pdf (1).zip">
+                <img alt="Terms of service" src={doubletick} />
                 </a>
               </li>
               <li>
@@ -252,15 +252,15 @@ export default function Footer() {
               </li>
               <li className="flex flex-row space-x-2">
                 <img alt="Privacy Policy" src={document} />
-                <a href="/Biosworld_Privacy_Policy.pdf">Privacy Policy</a>
+                <a href="/Biosworld_Privacy_Policy.zip">Privacy Policy</a>
               </li>
               <li className="flex flex-row space-x-2">
                 <img alt="Privacy Policy" src={doubletick} />
-                <a href="/BIOSW Terms_Of_Service (2).pdf (1).pdf">Terms of Service</a>
+                <a href="/BIOSW Terms_Of_Service (2).pdf (1).zip">Terms of Service</a>
               </li>
               <li className="flex flex-row space-x-2">
                 <img alt="Privacy Policy" src={warning} />
-                <a href="/BIOSW Disclaimer & Risk Disclosure.pdf">Disclaimer</a>
+                <a href="/BIOSW Disclaimer & Risk Disclosure.zip">Disclaimer</a>
               </li>
             </ul>
           </div>
