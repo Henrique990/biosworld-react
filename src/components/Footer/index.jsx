@@ -2,7 +2,7 @@ import bios from "../../../public/bios.png";
 // import discord from "../../../public/discord.png";
 import email from "../../../public/email.png";
 import twitter from "../../../public/twitter.png";
-import telegran from "../../../public/telegran.png";
+import telegran from "../../../public/telegram.png";
 import facebook from "../../../public/facebook.png";
 import youtube from "../../../public/youtube.png";
 import medium from "../../../public/medium.png";
@@ -169,9 +169,6 @@ export default function Footer() {
             <li className="hover:text-green-300">
               <a href="#">Whitepaper</a>
             </li>
-            <li className="hover:text-green-300">
-              <a href="#">NFT's</a>
-            </li>
           </ul>
           <div className="ml-4 mr-[10%] lg:ml-12">
             <h3 className="text-center text-xl">Follow us on</h3>
@@ -238,12 +235,12 @@ export default function Footer() {
               <li className="flex flex-row space-x-2">
                 <img alt="Logo Discord" src={youtube} />
                 <a href="https://www.youtube.com/channel/UCIN-JdOQFvMN82zxhLY6lkQ">
-                  youtube
+                  Youtube
                 </a>
               </li>
               <li className="flex flex-row space-x-2">
                 <img alt="Logo Discord" src={medium} />
-                <a href="https://medium.com/@biosworld23">medium</a>
+                <a href="https://medium.com/@biosworld23">Medium</a>
               </li>
 
               <li className="flex flex-row space-x-2">
