@@ -195,7 +195,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="/BIOSW Terms_Of_Service (2).pdf (1).zip">
                 <img alt="Privacy Policy" src={document} />
                 </a>
               </li>
