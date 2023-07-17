@@ -229,7 +229,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex flex-row space-x-2">
-                <img alt="Logo Discord" src={facebook} />
+                <img alt="Logo Facebook" src={facebook} />
                 <a href="https://www.facebook.com/biosworld">Facebook</a>
               </li>
               <li className="flex flex-row space-x-2">
