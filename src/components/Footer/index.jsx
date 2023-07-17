@@ -257,7 +257,7 @@ export default function Footer() {
               </li>
               <li className="flex flex-row space-x-2">
                 <img alt="Privacy Policy" src={warning} />
-                <a href="/BIOSW Disclaimer & Risk Disclosure.zip">Disclaimer</a>
+                <a href="/Biosworld_Privacy_Policy.pdf">Disclaimer</a>
               </li>
             </ul>
           </div>
