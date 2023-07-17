@@ -22,7 +22,7 @@ export default function CardPayment() {
           </div>
         </div>
         <div className="group-tree flex justify-center text-xs">
-          <p>BNB Raised: 0 BNB / 315,075 BNB</p>
+          <p>BNB Raised: 0 BNB / 000 BNB</p>
         </div>
         <div className="group-four flex justify-center items-center">
           <div className="border border-gray-500 hover:border-green-300 h-0 w-1/4"></div>
@@ -58,7 +58,7 @@ export default function CardPayment() {
           </div>
         </div>
         <div className="group-six flex flex-col justify-center items-center space-y-2">
-          <p>ETH Balance 23.00</p>
+          <p>ETH Balance 00.00</p>
           <div className="border border-gray-500 hover:border-green-300 w-full"></div>
         </div>
         <div className="group-seven flex justify-between">

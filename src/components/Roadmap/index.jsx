@@ -114,7 +114,7 @@ export default function Roadmap() {
     <div id="roadmap" className="w-full xl:[121.87rem] relative px-2 pb-20">
       <img
         alt="raccoon"
-        className="max-w-[50.12rem] w-[60%] md:w-[40%] absolute right-0 top-[20%] lg:top-14"
+        className="max-w-[50.12rem] w-[60%] md:w-[40%] absolute right-0 top-0 sm:top-[20%] lg:top-14"
         src={guaxinin}
       />
       <img className="absolute max-w-[19rem] w-[40%] md:w-[30%] top-[3%] lg:top-40 left-[18%] lg:left-44 z-10" src={viado} alt="fag" />

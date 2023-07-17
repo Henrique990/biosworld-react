@@ -309,19 +309,19 @@ const MyCountdown = ({ days, hours, minutes, seconds }) => (
   <div className="group-one flex flex-row space-x-4">
     <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
       <p>{days}</p>
-      <p>Dias</p>
+      <p>Days</p>
     </div>
     <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
       <p>{hours}</p>
-      <p>Horas</p>
+      <p>Hours</p>
     </div>
     <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
       <p>{minutes}</p>
-      <p>Minutos</p>
+      <p>Minutes</p>
     </div>
     <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
       <p>{seconds}</p>
-      <p>Segundos</p>
+      <p>Seconds</p>
     </div>
   </div>
 );
