@@ -32,13 +32,13 @@ export default function Tokenomics() {
             <p className="absolute bottom-16 right-2 md:bottom-32 lg:bottom-40 2xl:right-24">
               20% for Exchanges
             </p>
-            <p className="absolute bottom-2 right-0 xl:-right-10 2xl:right-10 desktop2:bg-red">
+            <p className="absolute bottom-2 -right-2 xl:-right-10 2xl:right-10 desktop2:bg-red">
               5% Marketing and <br /> Development Wallet
             </p>
-            <p className="absolute top-7 -right-5 md:-right-14 md:top-12 lg:top-16 xl:-right-24 2xl:right-0">
+            <p className="absolute top-7 -right-8 md:-right-14 md:top-12 lg:top-16 xl:-right-24 2xl:right-0">
               5% held for Charity Initiatives
             </p>
-            <p className="absolute top-2 -left-10 xl:-left-20 2xl:left-0">
+            <p className="absolute top-2 -left-6 xl:-left-20 2xl:left-0">
               70% of tokens will be sold <br /> thru public pre sales
             </p>
           </div>
