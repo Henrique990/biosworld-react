@@ -117,7 +117,7 @@ export default function Footer() {
     //     </div>
     //   </div>
     // </div>
-    <footer className="bg-[#142930] md:h-[43rem] xl:h-[50rem] p-2 md:p-6 leading-7 text-[#C1C1C1] space-y-10">
+    <footer className="bg-[#142930] xl:h-[50rem] p-2 md:p-6 leading-7 text-[#C1C1C1] space-y-10">
       <img className="xl:ml-[11%] 2xl:ml-[12%]" alt="Logo BiosWorld" src={bios} />
       <div className="flex justify-center">
         <div className="flex flex-row justify-around text-base max-w-[1520px] xl:text-base 2xl:text-2xl xl:mx-28">
@@ -165,7 +165,7 @@ export default function Footer() {
               <a href="#">NFT's</a>
             </li>
           </ul>
-          <div className="ml-2 lg:ml-12">
+          <div className="ml-4 mr-[10%] lg:ml-12">
             <h3 className="text-xl">Follow us on</h3>
             <ul className="space-y-1 xl:space-y-4 mt-4">
               <li className="flex flex-row space-x-2">
