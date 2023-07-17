@@ -6,8 +6,10 @@ import lion from "../../../public/lion.png";
 
 export default function HowToBuySection() {
   return (
-    <div className="w-full xl:h-[165.875rem] relative my-[0%]">
+    <div className="w-full pb-10 xl:h-[165.875rem] relative my-[0%]">
       <img className="absolute bottom-0 w-full h-full object-fill" src={monkey} alt="monkey" />
+      <h2 className="text-center text-2xl lg:text-5xl font-['Cattino'] mb-10 lg:leading-[72px] text-[#3e986f]">How to Buy</h2>
+      <h3 className="text-center text-xl lg:text-3xl font-['Cattino'] mb-10 lg:leading-[72px] text-[#ffffff]">Meme-ify Your Wallet with Biosw in 4 Simple Steps</h3>
       <div className="flex justify-center">
         <div className="relative flex flex-col justify-center gap-10 max-w-[82.33rem] items-stretch mt-12">
           <img className="absolute top-2 md:-top-4 lg:top-8 right-1/4 w-20 md:w-28 2xl:top-0 2xl:w-40" src={rabit} alt="rabit" />
