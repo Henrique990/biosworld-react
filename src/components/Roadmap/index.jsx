@@ -15,7 +15,7 @@ export default function Roadmap() {
         src={guaxinin}
       />
       <img
-        className="absolute max-w-[19rem] w-[40%] md:w-[30%] top-[2.9%] lg:top-40 left-[18%] lg:left-44 z-10"
+        className="absolute max-w-[18rem] w-[40%] md:w-[30%] top-[2.9%] lg:top-40 left-[18%] lg:left-44 z-10"
         src={viado}
         alt="fag"
       />
@@ -30,12 +30,12 @@ export default function Roadmap() {
         alt="banana tree"
       />
       <img
-        className="absolute w-[15%] left-[38%] top-[2%] md:top-0 md:w-[10%] md:left-[32%] lg:top-[8.81rem] lg:left-[22.3rem] z-10"
+        className="absolute w-[3.5rem] left-[38%] top-[2%] md:top-8 md:w-[6rem] md:left-[32%] lg:top-[8.81rem] lg:left-[22.3rem] z-10"
         src={espinho}
         alt="Hedgehog"
       />
       <img
-        className="absolute w-[25%] md:w-[25%]  -bottom-[0%] md:-bottom-[15%] xl:left-28"
+        className="absolute w-[10rem] md:w-[20rem]  -bottom-[0%] md:-bottom-[15%] xl:left-28"
         src={urso}
         alt="bear"
       />

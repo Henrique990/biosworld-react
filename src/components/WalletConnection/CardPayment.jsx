@@ -9,14 +9,14 @@ import medium from "../../../public/medium.png";
 import eth from "../../../public/img/WalletConnection/eth.png";
 import bnb from "../../../public/img/WalletConnection/bnb.png";
 import usdt from "../../../public/img/WalletConnection/usdt.png";
-import biosw from "../../../public/img/WalletConnection/BIOSW 1.png";
+import biosw from "../../../public/BIOSW 1.svg";
 import suricato from "../../../public/11 1-min.png";
 import bird from "../../../public/img/WalletConnection/bird-01 1.png";
 import MyPage from "./MyCountdown";
 
 export default function CardPayment() {
   return (
-    <div className="relative z-30 w-4/5 h-4/5 mb-10 md:w-3/5 xl:w-2/4 xl:h-4/5 2xl:w-2/4 2xl:h-3/5 lg:ml-[30%] bg-gray-900 bg-opacity-90 shadow-md rounded-sm p-4 flex justify-center items-center">
+    <div className="relative z-30 w-4/5 h-4/5 mb-10 md:w-3/5 xl:w-2/4 xl:h-4/5 2xl:w-2/5 2xl:h-3/5 lg:ml-[30%] bg-gray-900 bg-opacity-90 shadow-md rounded-sm p-4 flex justify-center items-center">
       <div className="space-y-4 lg:space-y-4 flex flex-col ">
         <div className="flex justify-center">
           <h2 className="text-3xl 2xl:text-5xl mb-10 font-['Cattino'] text-[#40A072]">Pre-sale Starts in...</h2>
@@ -85,7 +85,7 @@ export default function CardPayment() {
             </div>
             <div className="flex justify-between h-[10%] p-1 border border-gray-500 hover:border-green-300 rounded-md">
               <input className="w-full bg-transparent border-0" type="number" />
-              <img src={biosw} alt="Bios" />
+              <img className="" src={biosw} alt="Bios" />
             </div>
           </div>
         </div>
