@@ -3,7 +3,7 @@ import Table from "./Table";
 export default function TokenInfo() {
   return (
     <div className="w-full lg:h-[96.87rem] overflow-hidden relative py-10 font-inter">
-      <div className="whitespace-nowrap text-3xl lg:text-5xl font-['Cattino'] leading-[100px] text-[#40a072] relative w-full flex justify-center lg:mt-10">
+      <div className="whitespace-nowrap text-3xl lg:text-5xl font-['Cattino'] leading-[100px] text-green-400 relative w-full flex justify-center lg:mt-10">
         Token Information{" "}
       </div>
       <div className="flex flex-col md:flex-row justify-center max-lg:space-y-7 lg:space-x-64 lg:mt-24 px-4">

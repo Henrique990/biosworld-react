@@ -17,14 +17,14 @@ export default function Footer() {
       className="bg-[#142930] p-2 md:p-6 leading-7 text-[#C1C1C1] space-y-10"
     >
       <img
-        className="w-2ok0 xl:ml-[11%] 2xl:ml-[12%]"
+        className="w-28 xl:ml-[11%] 2xl:ml-[12%]"
         alt="Logo BiosWorld"
         src={bios}
       />
       <div className="flex justify-center">
         <div className="flex flex-col sm:flex-row justify-around text-base max-w-[1520px] xl:text-base 2xl:text-2xl xl:mx-28">
           <div className="container">
-            <div className="hidden md:block md:w-[70%] space-y-5">
+            <div className="hidden lg:block md:w-[70%] space-y-5">
               <p>
                 Bios World Driving Environmental Change through Community and
                 Blockchain
@@ -47,7 +47,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <ul className="flex flex-col justify-center text-center sm:text-left xl:space-y-4 mb-8 md:mr-16 pt-[2.75rem]">
+          <ul className="flex flex-col text-center sm:text-left xl:space-y-4 mb-8 md:mr-16">
             <li className="hover:text-green-300">
               <a href="#about">About us</a>
             </li>
@@ -114,30 +114,30 @@ export default function Footer() {
               </li>
             </ul>
             <ul className="hidden sm:block space-y-1 xl:space-y-4 mt-4">
-              <li className="flex flex-row space-x-2">
+              {/* <li className="flex flex-row space-x-2">
                 <img alt="Logo Telegran" src={telegran} />
                 <a href="https://t.me/+SHC0-kzuABk0NGQ5">Telegran</a>
-              </li>
-              <li className="flex flex-row space-x-2">
+              </li> */}
+              {/* <li className="flex flex-row space-x-2">
                 <img alt="Logo Twitter" src={twitter} />
                 <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fbiosworld23">
                   Twitter
                 </a>
-              </li>
-              <li className="flex flex-row space-x-2">
+              </li> */}
+              {/* <li className="flex flex-row space-x-2">
                 <img alt="Logo Facebook" src={facebook} />
                 <a href="https://www.facebook.com/biosworld">Facebook</a>
-              </li>
-              <li className="flex flex-row space-x-2">
+              </li> */}
+              {/* <li className="flex flex-row space-x-2">
                 <img alt="Logo Discord" src={youtube} />
                 <a href="https://www.youtube.com/channel/UCIN-JdOQFvMN82zxhLY6lkQ">
                   Youtube
                 </a>
-              </li>
-              <li className="flex flex-row space-x-2">
+              </li> */}
+              {/* <li className="flex flex-row space-x-2">
                 <img alt="Logo Discord" src={medium} />
                 <a href="https://medium.com/@biosworld23">Medium</a>
-              </li>
+              </li> */}
 
               <li className="flex flex-row space-x-2">
                 <img alt="Support biosworld" src={email} />

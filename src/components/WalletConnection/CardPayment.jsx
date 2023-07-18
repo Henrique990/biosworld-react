@@ -16,8 +16,8 @@ import MyPage from "./MyCountdown";
 
 export default function CardPayment() {
   return (
-    <div className="relative z-20 w-4/5 h-4/5  md:w-2/5 2xl:w-1/4 2xl:h-3/5 lg:ml-[30%] xl:h-4/5  bg-gray-900 bg-opacity-90 shadow-md rounded-sm p-4 flex justify-center items-center">
-      <div className="space-y-4 xl:space-y-8 lg:space-y-4 flex flex-col ">
+    <div className="relative z-30 w-4/5 h-4/5 mb-10 md:w-3/5 xl:w-2/4 xl:h-4/5 2xl:w-2/4 2xl:h-3/5 lg:ml-[30%] bg-gray-900 bg-opacity-90 shadow-md rounded-sm p-4 flex justify-center items-center">
+      <div className="space-y-4 lg:space-y-4 flex flex-col ">
         <div className="flex justify-center">
           <h2 className="text-3xl 2xl:text-5xl mb-10 font-['Cattino'] text-[#40A072]">Pre-sale Starts in...</h2>
         </div>
@@ -63,8 +63,8 @@ export default function CardPayment() {
             </div>
           </div>
         </div>
-        <div className="group-six flex flex-col justify-center items-center space-y-2">
-          <p>ETH Balance 00.00</p>
+        <div className="group-six text-xs flex flex-col justify-center items-center space-y-2">
+          <p>BIOSW Balance 0.00</p>
           <div className="border border-gray-500 hover:border-green-300 w-full"></div>
         </div>
         <div className="group-seven flex justify-between">
@@ -127,7 +127,7 @@ export default function CardPayment() {
             </ul>
       </div>
          <img className='absolute top-[-15%] -right-[25%] w-[55%] ' src={bird} alt="bird" />
-         <img className='absolute -right-[40%] -bottom-[10%] w-[50%]' src={suricato} alt="meerkat" />
+         <img className='absolute -right-[40%] -bottom-[10%] w-[50%] xl:-right-1/4 xl:w-1/3' src={suricato} alt="meerkat" />
 
 
     </div>

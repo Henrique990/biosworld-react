@@ -4,7 +4,7 @@ import esquilo from "../../../public/img/tokenomics/Group 46.png";
 export default function Tokenomics() {
   return (
     <section id="tokenomics" className="w-full h-[900px] lg:h-[1550px] relative">
-      <div className="text-5xl font-['Cattino'] leading-[78px] capitalize text-[#40a072]  w-full flex justify-center mt-52">
+      <div className="text-5xl font-['Cattino'] leading-[78px] capitalize text-green-400  w-full flex justify-center mt-52">
         Tokenomics
       </div>
       <div className="z-20 text-2xl lg:text-5xl font-bold leading-[72px] text-white flex justify-center  w-full mt-44">
@@ -12,12 +12,12 @@ export default function Tokenomics() {
         <div className="text-2xl lg:text-5xl font-bold leading-[72px] text-[#deede4] contents">
           {" "}
         </div>
-        <div className="text-2xl lg:text-5xl font-['Cattino'] leading-[72px] text-[#206c46] contents">
+        <div className="text-2xl lg:text-5xl font-['Cattino'] leading-[72px] text-green-600 contents">
           Total Supply
         </div>
       </div>
       <img
-        className="absolute top-0 left-0 w-[70%] md:w-[50%] "
+        className="absolute top-0 left-0 w-[70%] md:w-[50%] 2xl:w-2/6 "
         src={preguiça}
         alt="shoth"
       />

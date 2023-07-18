@@ -47,7 +47,7 @@ export default function Roadmap() {
         />
       </div>
 
-      <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-[#40a072] w-full mt-[70%] xl:mt-64 relative z-10">
+      <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-green-400 w-full mt-[70%] xl:mt-64 relative z-10">
         Roadmap
       </div>
       <div className="flex justify-center mt-[20%] xl:mt-56">
