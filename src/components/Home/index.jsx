@@ -8,6 +8,8 @@ import {
   // Card,
 } from "@material-tailwind/react";
 
+import { Link } from 'react-scroll';
+
 import logo from "../../../public/img/home/bios.png";
 import arrow from "../../../public/img/home/Arrow 1.png";
 import tree from "../../../public/h-tree-min.png";
@@ -22,7 +24,6 @@ export default function Home() {
       () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
-
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -90,7 +91,10 @@ export default function Home() {
   );
 
   return (
-    <header id="home" className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden">
+    <header
+      id="home"
+      className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden"
+    >
       <img
         className="absolute object-cover w-full h-full"
         src="/H-bg-min.png"
@@ -185,12 +189,14 @@ export default function Home() {
               natural wonders of our planet. With outstanding technology at our
               fingertips{" "}
             </Typography>
-            <Button className="bg-[#40a072] flex flex-row justify-center gap-3 rounded-none relative px-4 z-10 lg:w-[17.25rem] lg:h-[5.625rem] items-center">
-              <span className="whitespace-nowrap md:text-lg lg:text-2xl leading-[39px] text-white relative p-2 w-1/2">
-                Buy
-              </span>
-              <img src={arrow} alt="arrow" />
-            </Button>
+            <Button className="bg-[#40a072] flex flex-row justify-center rounded-none relative px-4 z-10 lg:w-[17.25rem] lg:h-[5.625rem] items-center">
+              <Link className="flex flex-row" to="card-payment" smooth={true} duration={500}>
+                <span className="whitespace-nowrap md:text-lg lg:text-2xl leading-[39px] text-white relative p-2 w-1/2">
+                  Buy
+                </span>
+                <img className="ml-2 p-3"  src={arrow} alt="arrow" />
+              </Link>
+            </Button>{" "}
           </div>
           <img
             className="w-1/2 lg:w-1/3 absolute right-0 bottom-0  z-10 "
