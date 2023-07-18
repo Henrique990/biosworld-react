@@ -77,7 +77,7 @@ export default function Home() {
           How to Buy
         </a>
       </Typography>
-      <Typography
+      {/* <Typography
         as="li"
         variant="small"
         color="white"
@@ -86,7 +86,7 @@ export default function Home() {
         <a href="#faq" className="flex items-center">
           FAQ
         </a>
-      </Typography>
+      </Typography> */}
     </ul>
   );
 

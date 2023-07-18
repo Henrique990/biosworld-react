@@ -80,7 +80,7 @@ export default function CardPayment() {
           </div>
           <div className="relative flex flex-col w-[45%] h-[20%]">
             <div className="flex flex-row justify-between px-2 text-[8px]">
-              <p>Amount in BIOS you pay</p>
+              <p>Amount in BIOSW you receive</p>
               <p>Max</p>
             </div>
             <div className="flex justify-between h-[10%] p-1 border border-gray-500 hover:border-green-300 rounded-md">
