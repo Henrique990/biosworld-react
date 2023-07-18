@@ -3,7 +3,7 @@ import esquilo from "../../../public/img/tokenomics/Group 46.png";
 
 export default function Tokenomics() {
   return (
-    <div className="w-full h-[900px] lg:h-[1550px] relative">
+    <section id="tokenomics" className="w-full h-[900px] lg:h-[1550px] relative">
       <div className="text-5xl font-['Cattino'] leading-[78px] capitalize text-[#40a072]  w-full flex justify-center mt-52">
         Tokenomics
       </div>
@@ -45,7 +45,7 @@ export default function Tokenomics() {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="absolute w-full max-w-[1920px] bottom-0 flex flex-row justify-around lg:text-2xl xl:text-3xl">
+        <div className="absolute w-full max-w-[1920px] bottom-0 flex flex-row justify-around text-xs lg:text-2xl xl:text-3xl">
           <div className=" leading-5 lg:leading-8 xl:leading-10">
             <p>8% Tax NFT's</p>
             <p>3 % distributed to seller</p>
@@ -61,6 +61,6 @@ export default function Tokenomics() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

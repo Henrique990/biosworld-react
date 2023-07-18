@@ -6,7 +6,7 @@ import lion from "../../../public/lion.png";
 
 export default function HowToBuySection() {
   return (
-    <div className="w-full pb-10 xl:h-[165.875rem] relative my-[0%]">
+    <section id="howtobuy" className="w-full pb-10 xl:h-[165.875rem] relative my-[0%]">
       <img className="absolute bottom-0 w-full h-full object-fill" src={monkey} alt="monkey" />
       <h2 className="text-center text-2xl lg:text-5xl font-['Cattino'] mb-10 lg:leading-[72px] text-[#3e986f]">How to Buy</h2>
       <h3 className="text-center text-xl lg:text-3xl font-['Cattino'] mb-10 lg:leading-[72px] text-[#ffffff]">Meme-ify Your Wallet with Biosw in 4 Simple Steps</h3>
@@ -72,6 +72,6 @@ export default function HowToBuySection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

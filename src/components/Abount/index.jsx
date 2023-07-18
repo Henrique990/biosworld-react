@@ -3,7 +3,7 @@ import fox from "../../../public/img/about/fox 1.png";
 
 export default function About() {
   return (
-    <div className="w-full h-[1080px] overflow-hidden relative">
+    <section id="about" className="w-full h-[1080px] overflow-hidden relative">
       <div className="flex flex-col max-w-[44.5rem] mt-[10%] ml-[10%] w-[80%] md:w-[80%] xl:w-[40%] 2xl:mt-[15.8rem] 2xl:ml-[18.9rem] md:ml-[10%] md:mt-[10%] space-y-24">
         <div className="text-3xl sm:text-5xl font-['Cattino'] leading-[78px] text-[#40a072] justify-start relative w-full">
           Welcome to Bios World
@@ -24,6 +24,6 @@ export default function About() {
       </div>
         <img className="absolute right-0 bottom-0 2xl:w-[50%]" src={junglle} alt="jungle" />
         <img className="absolute right-[25%] w-[40%] bottom-[15%]  sm:w-[30%] sm:bottom-[25%] sm:right-[25%] xl:bottom-[25%] xl:w-[20%] xl:right-[20%]" src={fox} alt="fox" /> 
-    </div>
+    </section>
   );
 }

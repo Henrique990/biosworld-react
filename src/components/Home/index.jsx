@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import {
   Navbar,
@@ -10,19 +8,10 @@ import {
   // Card,
 } from "@material-tailwind/react";
 
-// import Image from "next/image";
-import luz1 from "../../../public/Ellipse 5 (1).png";
-import luz from "../../../public/Ellipse 3.png";
 import logo from "../../../public/img/home/bios.png";
 import arrow from "../../../public/img/home/Arrow 1.png";
-// import group from "../../../public/H-bg-min.png";
 import tree from "../../../public/h-tree-min.png";
-// import bg from "../../../public/img/home/H-bg.png";
 import tigerr from "../../../public/Tiger.png";
-// import zebra from "../../../public/img/home/zebra 2.png";
-// import elephant from "../../../public/img/home/elephant 1.png";
-// import htree from "../../../public/img/home/h-tree.png";
-// import hbirds from "../../../public/img/home/h-birds-01 1.png";
 
 export default function Home() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -34,10 +23,6 @@ export default function Home() {
     );
   }, []);
 
-  const handleClick = (e) => {
-    document.querySelector("#secao1").scrollIntoView({ behavior: "smooth" });
-    return false;
-  };
 
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -46,7 +31,6 @@ export default function Home() {
         variant="small"
         color="white"
         className="p-1 font-normal"
-        onClick={handleClick}
       >
         <a href="#home" className="flex items-center">
           Home
@@ -106,14 +90,14 @@ export default function Home() {
   );
 
   return (
-    <header className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden">
+    <header id="home" className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden">
       <img
         className="absolute object-cover w-full h-full"
         src="/H-bg-min.png"
         alt="imagem de fundo"
       />
       <div className="flex flex-col justify-center">
-        <Navbar className="container fixed top-0 z-50 h-max max-w-full bg-green-800 border-none rounded-none py-2 px-4 lg:px-8 lg:py-4">
+        <Navbar className="container fixed top-0 z-50 h-max max-w-full bg-[rgba(23,57,35,0.85)] border-none rounded-none py-2 px-4 lg:px-8 lg:py-4">
           <div className="flex items-center justify-between lg:justify-around ">
             {/* <Typography
             as="a"
@@ -202,8 +186,8 @@ export default function Home() {
               fingertips{" "}
             </Typography>
             <Button className="bg-[#40a072] flex flex-row justify-center gap-3 rounded-none relative px-4 z-10 lg:w-[17.25rem] lg:h-[5.625rem] items-center">
-              <span className="whitespace-nowrap lg:text-2xl leading-[39px] text-white relative w-1/2">
-                Buy Now
+              <span className="whitespace-nowrap md:text-lg lg:text-2xl leading-[39px] text-white relative p-2 w-1/2">
+                Buy
               </span>
               <img src={arrow} alt="arrow" />
             </Button>

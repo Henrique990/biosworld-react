@@ -6,8 +6,8 @@ import stone from "../../../public/stone.png"
 
 export default function WalletConnection() {
   return (
-    <div className="w-full h-[800px] overflow-hidden relative bg-[rgba(80,194,120,0.15)]">
-        <div id='section3' className='absolute w-full h-full flex justify-center items-center mt-[0%] md:mt-[0%] xl:mt-[10%] 2xl:mt-[0%]'>
+    <div className="w-full h-[800px] 2xl:h-[1080px] overflow-hidden relative bg-[rgba(80,194,120,0.15)]">
+        <div id='section3' className='absolute w-full h-full flex justify-center items-center mt-[0%] md:mt-[0%] xl:mt-[0%] 2xl:mt-[0%]'>
           <CardPayment /> 
         </div>
       <div className='w-full h-full relative lg:w-[75%]'>

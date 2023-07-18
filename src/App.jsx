@@ -11,7 +11,7 @@ import WalletConnection from "./components/WalletConnection";
 
 function App() {
   return (
-    <div className="max-w-full h-full overflow-hidden bg-[rgba(80,194,120,0.15)]">
+    <div className="max-w-full h-full overflow-hidden bg-gradient-to-r from-[rgba(109,235,151,0.25)] via-[rgba(109,235,151,0.35)] to-[rgba(109,235,151,0.45)] ">
       <Home />
       <WalletConnection />
       <About />
