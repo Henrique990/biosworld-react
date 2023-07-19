@@ -66,7 +66,7 @@ export default function Footer() {
           </ul>
           <div className="ml-4 mr-[10%] lg:ml-12">
             <ul className="flex gap-3 sm:hidden">
-              <li>
+              {/* <li>
                 <a href="https://t.me/+SHC0-kzuABk0NGQ5">
                   <img alt="Logo Telegran" src={telegran} />
                 </a>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <a href="https://medium.com/@biosworld23">
                   <img alt="Logo medium" src={medium} />
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="https://www.support@biosworld.io">
                   <img alt="support@biosworld.io" src={email} />
@@ -91,21 +91,21 @@ export default function Footer() {
                   <img alt="Privacy Policy" src={document} />
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://www.facebook.com/biosworld">
                   <img alt="Logo Discord" src={facebook} />
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="/BIOSW Terms_Of_Service (2).pdf (1).pdf">
                   <img alt="Terms of service" src={doubletick} />
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://www.youtube.com/channel/UCIN-JdOQFvMN82zxhLY6lkQ">
                   <img alt="Logo Discord" src={youtube} />
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="/BIOSW Disclaimer & Risk Disclosure.pdf">
                   <img src={warning} alt="warning" />

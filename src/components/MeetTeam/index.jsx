@@ -27,9 +27,9 @@ export default function MeetTeam() {
       <div className="flex justify-center mb-20">
         <Cards />
       </div>
-      <div className="absolute w-full bottom-0 z-30 flex flex-col md:flex-row space-y-10 justify-center md:items-start md:justify-around gap-2 mb-5">
+      <div className="absolute w-full bottom-0 z-30 flex flex-col md:flex-row space-y-2 md:space-y-10 justify-center md:items-start md:justify-around gap-2 mb-5">
         <div className="space-y-4 2xl:space-y-8">
-          <h3 className="text-center mb-12 pt-9 sm:text-xl lg:text-4xl 2xl:text-5xl text-green-500 font-medium">
+          <h3 className="text-center md:mb-12 pt-9 sm:text-xl lg:text-4xl 2xl:text-5xl text-green-500 font-medium">
             DEX LISTING
           </h3>
           <div className="flex justify-center gap-2 2xl:gap-6">
@@ -57,7 +57,7 @@ export default function MeetTeam() {
             />
           </div>
         </div>
-        <div className="gap-2 pt-24 space-y-4 2xl:space-y-8">
+        <div className="gap-2 md:pt-24 space-y-4 2xl:space-y-8">
           <div className="flex justify-center max-sm:items-center gap-2 2xl:gap-6">
             <img
               className="w-12 h-12 md:w-20 md:h-14 lg:w-24 2xl:w-[11rem] 2xl:h-28"
@@ -65,7 +65,7 @@ export default function MeetTeam() {
               alt="Logo binance chain wallet"
             />
             <img
-              className="md:h-8 w-24 lg:w-44 2xl:w-[18rem] 2xl:h-16 md:mt-5 2xl:mt-10"
+              className="md:h-8 w-24 lg:w-44 2xl:w-[18rem] 2xl:h-16 mt-5 2xl:mt-10"
               src={metamask}
               alt="Logo Metamask"
             />
@@ -79,7 +79,7 @@ export default function MeetTeam() {
           </div>
         </div>
         <div className="gap-2 space-y-4 2xl:space-y-8">
-          <h3 className="text-center mb-12 sm:text-xl lg:text-4xl 2xl:text-5xl text-green-500 font-medium">
+          <h3 className="text-center md:mb-12 sm:text-xl lg:text-4xl 2xl:text-5xl text-green-500 font-medium">
             CEX LISTING
           </h3>
           <div className="flex justify-center gap-2 2xl:gap-6">

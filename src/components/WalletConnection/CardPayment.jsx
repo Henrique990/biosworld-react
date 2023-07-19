@@ -67,36 +67,36 @@ export default function CardPayment() {
           <p>BIOSW Balance 0.00</p>
           <div className="border border-gray-500 hover:border-green-300 w-full"></div>
         </div>
-        <div className="group-seven flex justify-between">
+        <div className="group-seven flex items-center justify-between">
           <div className="flex flex-col w-[45%] h-[20%]">
-            <div className="flex flex-row justify-between px-2 text-[8px]">
+            <div className="flex flex-row justify-between px-1 text-[6px] sm:text-[8px]">
               <p>Amount in BNB you pay</p>
               <p>Max</p>
             </div>
             <div className="flex flex-row justify-between h-[10%] p-1  border border-gray-500 hover:border-green-300 rounded-md">
-              <input className="w-full bg-transparent border-0 " type="number" />
-              <img className="" src={bnb} alt="eth" />
+              <input className="w-3/5 bg-transparent border-0 " type="number" />
+              <img className="" src={bnb} alt="bnb" />
             </div>
           </div>
           <div className="relative flex flex-col w-[45%] h-[20%]">
-            <div className="flex flex-row justify-between px-2 text-[8px]">
+            <div className="flex flex-row justify-between px-1 text-[6px] sm:text-[8px]">
               <p>Amount in BIOSW you receive</p>
               <p>Max</p>
             </div>
             <div className="flex justify-between h-[10%] p-1 border border-gray-500 hover:border-green-300 rounded-md">
-              <input className="w-full bg-transparent border-0" type="number" />
+              <input className="w-3/5 bg-transparent border-0" type="number" />
               <img className="" src={biosw} alt="Bios" />
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center space-y-1 text-[8px]">
+        <div className="flex flex-col justify-center items-center space-y-4 text-[8px]">
           <p>
             0.0025 BNB is reserved for gas.The actual amount used will depend an
             the network.
           </p>
 
           <Button className="p-4 text-center rounded-md" color="green">Connect Wallet</Button>
-          <p className="flex justify-center pt-4 text-sm">LISTING PRICE: $0.000155</p>
+          <p className="flex justify-center pt-0 text-sm">LISTING PRICE: $0.000155</p>
         </div>
          <ul className="flex justify-center gap-3">
               <li>

@@ -15,7 +15,7 @@ export default function Roadmap() {
         src={guaxinin}
       />
       <img
-        className="absolute max-w-[18rem] w-[40%] md:w-[30%] top-[2.9%] lg:top-40 left-[18%] lg:left-44 z-10"
+        className="absolute max-w-[18rem] w-[7rem] md:w-[30%] top-[2.9%] lg:top-40 left-[18%] lg:left-44 z-10"
         src={viado}
         alt="fag"
       />
@@ -30,31 +30,31 @@ export default function Roadmap() {
         alt="banana tree"
       />
       <img
-        className="absolute w-[3.5rem] left-[38%] top-[2%] md:top-8 md:w-[6rem] md:left-[32%] lg:top-[8.81rem] lg:left-[22.3rem] z-10"
+        className="absolute w-[3rem] left-[8.5rem] top-[1.5%] md:top-8 md:w-[6rem] md:left-[32%] lg:top-[8.81rem] lg:left-[22.3rem] z-10"
         src={espinho}
         alt="Hedgehog"
       />
       <img
-        className="absolute w-[10rem] md:w-[20rem]  -bottom-[0%] md:-bottom-[15%] xl:left-28"
+        className="absolute w-[10rem] md:w-[20rem]  -bottom-[8%] md:-bottom-[15%] xl:left-28"
         src={urso}
         alt="bear"
       />
       <div className="flex justify-center">
         <img
-          className="absolute -bottom-[9%] xl:bottom-[23rem]"
+          className="absolute bottom-[4rem] sm:bottom-1 md:-bottom-[4rem] xl:bottom-[23rem]"
           src={estrada}
           alt="road"
         />
       </div>
 
-      <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-green-400 w-full mt-[70%] xl:mt-64 relative z-10">
+      <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-green-400 w-full mt-[20rem] xl:mt-64 relative z-20">
         Roadmap
       </div>
-      <div className="flex justify-center mt-[20%] xl:mt-56">
+      <div className="relative z-20 flex justify-center md:mb-[14rem] mt-[20%] xl:mt-56">
         <div className="Group88 w-[70%] md:w-[60%] lg:w-[40%] xl:w-[1315px] xl:h-[1348px] relative space-y-6 md:space-y-10 ml-2">
           <div className="Group82 space-y-2 xl:w-[314px] xl:h-[346px] xl:left-0 xl:top-[311px] xl:absolute">
             <div className="Group81 xl:w-52 xl:h-[46px] xl:left-0 xl:top-0 xl:absolute">
-              <div className="Rectangle70 h-8 xl:w-52 xl:h-[46px] xl:left-0  xl:absolute bg-green-500 rounded-md sm:rounded-2xl xl:flex xl:justify-center xl:items-center">
+              <div className="Rectangle70 flex justify-center items-center h-8 md:h-[48px] xl:w-52 xl:h-[46px] xl:left-0  xl:absolute bg-green-500 rounded-md sm:rounded-2xl xl:flex xl:justify-center xl:items-center">
                 <div className="Discovery flex justify-center items-center xl:w-[108px] xl:h-[33px] xl:left-[50px] xl:top-[6px] xl:absolute text-gray-200 md:text-[28px] font-['Cattino']">
                   Discovery
                 </div>
@@ -117,7 +117,7 @@ export default function Roadmap() {
           </div>
           <div className="Group86 space-y-2 xl:w-[478px] xl:h-[368px] xl:left-[816px] xl:top-[729px] xl:absolute">
             <div className="Group85 xl:w-[222px] xl:h-[46px] xl:left-0 xl:top-0 xl:absolute">
-              <div className="Rectangle71 flex justify-center items-center h-8 xl:w-[222px] xl:h-[46px] xl:left-0 xl:top-0 xl:absolute bg-green-500 rounded-md sm:rounded-2xl">
+              <div className="Rectangle71 flex justify-center items-center h-8 md:h-[48px] xl:w-[222px] xl:h-[46px] xl:left-0 xl:top-0 xl:absolute bg-green-500 rounded-md sm:rounded-2xl">
                 <div className="Sustainability flex justify-center items-center xl:w-[153px] xl:h-[33px] xl:left-[34px] xl:absolute text-gray-200 md:text-[28px] font-['Cattino']">
                   Sustainability
                 </div>
