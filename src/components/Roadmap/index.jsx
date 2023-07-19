@@ -41,7 +41,7 @@ export default function Roadmap() {
       />
       <div className="flex justify-center">
         <img
-          className="absolute bottom-[4rem] sm:bottom-1 md:-bottom-[4rem] xl:bottom-[23rem]"
+          className="absolute bottom-[4rem] sm:bottom-1 md:-bottom-[4rem] xl:bottom-[35rem]"
           src={estrada}
           alt="road"
         />
