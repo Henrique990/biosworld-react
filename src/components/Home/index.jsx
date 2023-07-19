@@ -8,7 +8,7 @@ import {
   // Card,
 } from "@material-tailwind/react";
 
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 
 import logo from "../../../public/img/home/bios.png";
 import arrow from "../../../public/img/home/Arrow 1.png";
@@ -189,14 +189,19 @@ export default function Home() {
               natural wonders of our planet. With outstanding technology at our
               fingertips{" "}
             </Typography>
-            <Button className="bg-[#40a072] flex flex-row justify-center rounded-none relative px-4 z-10 lg:w-[17.25rem] lg:h-[5.625rem] items-center">
-              <Link className="flex flex-row" to="card-payment" smooth={true} duration={500}>
+            <Link
+              className="flex flex-row"
+              to="card-payment"
+              smooth={true}
+              duration={500}
+            >
+              <Button className="bg-[#40a072] flex flex-row justify-center rounded-none relative px-4 z-10 lg:w-[17.25rem] lg:h-[5.625rem] items-center">
                 <span className="whitespace-nowrap md:text-lg lg:text-2xl leading-[39px] text-white relative p-2 w-1/2">
                   Buy
                 </span>
-                <img className="ml-2 p-3"  src={arrow} alt="arrow" />
-              </Link>
-            </Button>{" "}
+                <img className="ml-2 p-3" src={arrow} alt="arrow" />
+              </Button>{" "}
+            </Link>
           </div>
           <img
             className="w-1/2 lg:w-1/3 absolute right-0 bottom-0  z-10 "

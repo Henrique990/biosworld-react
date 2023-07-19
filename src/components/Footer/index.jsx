@@ -65,7 +65,6 @@ export default function Footer() {
             </li>
           </ul>
           <div className="ml-4 mr-[10%] lg:ml-12">
-            <h3 className="text-center text-xl">Contact</h3>
             <ul className="flex gap-3 sm:hidden">
               <li>
                 <a href="https://t.me/+SHC0-kzuABk0NGQ5">
@@ -139,21 +138,21 @@ export default function Footer() {
                 <a href="https://medium.com/@biosworld23">Medium</a>
               </li> */}
 
-              <li className="flex flex-row items-center space-x-2">
+              <li className="flex flex-row items-center hover:text-green-400 space-x-2">
                 <img alt="Support biosworld" src={email} />
                 <a href="mailto:support@biosworld.io">Contact Us</a>
               </li>
-              <li className="flex flex-row items-center space-x-2">
+              <li className="flex flex-row items-center hover:text-green-400 space-x-2">
                 <img alt="Privacy Policy" src={document} />
                 <a href="/Biosworld_Privacy_Policy.pdf">Privacy Policy</a>
               </li>
-              <li className="flex flex-row items-center space-x-2">
+              <li className="flex flex-row items-center hover:text-green-400 space-x-2">
                 <img alt="Privacy Policy" src={doubletick} />
                 <a href="/BIOSW Terms_Of_Service (2).pdf (1).pdf">
                   <p>Terms of Service</p>
                 </a>
               </li>
-              <li className="flex flex-row items-center space-x-2">
+              <li className="flex flex-row items-center hover:text-green-400 space-x-2">
                 <img className="" alt="Privacy Policy" src={warning} />
                 <a href="/Biosworld_Privacy_Policy.pdf">Disclaimer</a>
               </li>
