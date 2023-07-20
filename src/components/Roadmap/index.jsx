@@ -8,7 +8,7 @@ import estrada from "../../../public/estrada.png";
 
 export default function Roadmap() {
   return (
-    <div id="roadmap" className="w-full xl:[121.87rem] relative px-2 pb-20">
+    <div id="roadmap" className="w-full h-screen xl:[121.87rem] relative px-2 pb-20">
       <img
         alt="raccoon"
         className="max-w-[50.12rem] w-[50%] md:w-[40%] absolute right-0 top-0 sm:top-[20%] lg:top-14"
@@ -50,7 +50,7 @@ export default function Roadmap() {
       <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-green-400 w-full mt-[20rem] xl:mt-64 relative z-20">
         Roadmap
       </div>
-      <div className="relative z-20 flex justify-center md:mb-[14rem] mt-[20%] xl:mt-56">
+      {/* <div className="relative z-20 flex justify-center md:mb-[14rem] mt-[20%] xl:mt-56">
         <div className="Group88 w-[70%] md:w-[60%] lg:w-[40%] xl:w-[1315px] xl:h-[1348px] relative space-y-6 md:space-y-10 ml-2">
           <div className="Group82 space-y-2 xl:w-[314px] xl:h-[346px] xl:left-0 xl:top-[311px] xl:absolute">
             <div className="Group81 xl:w-52 xl:h-[46px] xl:left-0 xl:top-0 xl:absolute">
@@ -161,7 +161,22 @@ export default function Roadmap() {
             </div>
           </div>
         </div>
+      </div> */}
+
+      <div className="container relative w-full h-3/5">
+        <div className="absolute bottom-0">
+          <div className="bg-green-500 w-28">
+              <h3 className="p-2 text-center font-['Cattino']">Discovery</h3>
+          </div>
+          <div className="text-xs">
+            <p>Pre-sale Website</p>
+            <p>Pre-sale Live</p>
+            <p>10,000 Telegram Community</p>
+            <p>Media/PR</p>
+            <p>Social Channel Live</p>
+          </div>
+        </div>
+        </div>
       </div>
-    </div>
   );
 }
