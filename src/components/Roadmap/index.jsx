@@ -8,8 +8,11 @@ import estrada from "../../../public/estrada.png";
 
 export default function Roadmap() {
   return (
-    <div id="roadmap" className="w-full h-screen xl:[121.87rem] relative px-2 pb-20">
-      <img
+    <div
+      id="roadmap"
+      className="w-full h-[60rem]   relative px-2 pb-20 lg:h-[80rem] xl:h-[120rem]"
+    >
+      {/* <img
         alt="raccoon"
         className="max-w-[50.12rem] w-[50%] md:w-[40%] absolute right-0 top-0 sm:top-[20%] lg:top-14"
         src={guaxinin}
@@ -38,18 +41,15 @@ export default function Roadmap() {
         className="absolute w-[10rem] md:w-[20rem]  -bottom-[8%] md:-bottom-[15%] xl:left-28"
         src={urso}
         alt="bear"
-      />
-      <div className="flex justify-center">
+      /> */}
+      {/* <div className="flex justify-center">
         <img
           className="absolute bottom-[4rem] sm:bottom-1 md:-bottom-[4rem] xl:bottom-[35rem]"
           src={estrada}
           alt="road"
         />
-      </div>
+      </div> */}
 
-      <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-green-400 w-full mt-[20rem] xl:mt-64 relative z-20">
-        Roadmap
-      </div>
       {/* <div className="relative z-20 flex justify-center md:mb-[14rem] mt-[20%] xl:mt-56">
         <div className="Group88 w-[70%] md:w-[60%] lg:w-[40%] xl:w-[1315px] xl:h-[1348px] relative space-y-6 md:space-y-10 ml-2">
           <div className="Group82 space-y-2 xl:w-[314px] xl:h-[346px] xl:left-0 xl:top-[311px] xl:absolute">
@@ -162,21 +162,127 @@ export default function Roadmap() {
           </div>
         </div>
       </div> */}
+      <h2 className="font-['Cattino'] text-center relative top-60 text-3xl text-green-500 md:text-5xl md:top-52 xl:text-7xl xl:top-80">
+        Roadmap
+      </h2>
 
-      <div className="container relative w-full h-3/5">
-        <div className="absolute bottom-0">
-          <div className="bg-green-500 w-28">
-              <h3 className="p-2 text-center font-['Cattino']">Discovery</h3>
+      <img
+        className="absolute w-[10rem] top-40 right-0 lg:w-[20rem] xl:w-[25rem] 2xl:w-[40rem]"
+        alt="raccoon"
+        src={guaxinin}
+      />
+      <div className="absolute left-0 top-0 w-[14rem] h-[12rem]   lg:w-[24rem] lg:h-[20rem] xl:w-[30rem] xl:h-[30rem] 2xl:w-[40rem] 2xl:h-[40rem]">
+        <img
+          className="z-10 absolute bottom-0 right-0 h-[10rem] lg:h-[18rem] xl:h-[25rem] 2xl:h-[35rem]"
+          src={viado}
+          alt="fag"
+        />
+        <img
+          className="absolute top-0 left-0 lg:w-[15rem] 2xl:w-[40rem]"
+          src={galho}
+          alt="tree branches"
+        />
+        <img
+          className="absolute bottom-0 left-0 lg:w-[20rem] 2xl:w-[40rem]"
+          src={bananeira}
+          alt="banana tree"
+        />
+        <img
+          className="z-10 absolute w-[2rem] top-6 right-4 lg:w-[4rem] lg:top-3 xl:w-[7rem] xl:top-5 2xl:w-[9rem] 2xl:right-8"
+          src={espinho}
+          alt="Hedgehog"
+        />
+      </div>
+      <img className="absolute -bottom-56 w-[7rem] lg:w-[12rem] xl:w-[20rem]" src={urso} alt="bear" />
+
+      <div className="flex w-full h-full justify-center items-end lg:pb-40 xl:pb-80">
+        <div className="container z-30 flex items-center   relative w-full h-[35rem] xl:h-[50rem]">
+          <div className="absolute w-full flex justify-center">
+            <img className="flex justify-center" src={estrada} alt="road" />
           </div>
-          <div className="text-xs">
-            <p>Pre-sale Website</p>
-            <p>Pre-sale Live</p>
-            <p>10,000 Telegram Community</p>
-            <p>Media/PR</p>
-            <p>Social Channel Live</p>
+
+          <div className="absolute top-48 space-y-2 sm:top-32 lg:top-20">
+            <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
+              <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
+                1. Discovery
+              </h3>
+            </div>
+            <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
+              <p>Pre-sale Website</p>
+              <p>Pre-sale Live</p>
+              <p>10,000 Telegram Community</p>
+              <p>Media/PR</p>
+              <p>Social Channel Live</p>
+            </div>
           </div>
-        </div>
+          <div className="absolute bottom-16 left-[15%] space-y-2 sm:-bottom-12 lg:-bottom-48">
+            <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
+              <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
+                2. Protection
+              </h3>
+            </div>
+            <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
+              <p>1st donation to Biodiversity</p>
+              <p>30,000 telegram community</p>
+              <p>Ambassador Campaigns</p>
+              <p>Full Website Lives</p>
+              <p>1st Launch on DEX/Cexs</p>
+              <p>Chain Bridge added</p>
+              <p>Airdrop 500M</p>
+            </div>
+          </div>
+          <div className="absolute top-24 left-[35%] space-y-2 sm:top-0 lg:-top-28">
+            <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
+              <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
+                3. Restoration
+              </h3>
+            </div>
+            <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
+              <p>NFT Release </p>
+              <p>CrowdFunding Website Live </p>
+              <p>2nd Donation to Biodiversity</p>
+              <p>60,000 Holders</p>
+              <p>60,000 community </p>
+              <p>Partnership</p>
+              <p>2nd Launch on DEX/CEX </p>
+              <p>Airdrop 500M</p>
+            </div>
+          </div>
+          <div className="absolute bottom-44 left-[50%] space-y-2 sm:bottom-20 lg:bottom-0">
+            <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
+              <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
+                4. Sustainability
+              </h3>
+            </div>
+            <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
+              <p>NFT MarketPlace</p>
+              <p>Climate Change Initiative Launch (Flora &</p>
+              <p>Fauna) 50,000 volunteers</p>
+              <p>200,000 Holders</p>
+              <p>Partnership</p>
+              <p>BIOSwap Live </p>
+              <p>Staking Live s</p>
+            </div>
+          </div>
+          <div className="absolute top-28 right-0 space-y-2 sm:-top-8 lg:-top-40">
+            <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
+              <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
+                5. Education
+              </h3>
+            </div>
+            <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
+              <p>Academy with AI tools</p>
+              <p>BIOS Gaming (P2E with cause)</p>
+              <p>ZOO on Metaverse Live</p>
+              <p>5% token to Charities</p>
+              <p>500,000 holders</p>
+              <p>100,000 Volunteers</p>
+              <p>1B Market Cap</p>
+              <p>BIOS Protocol ( Continued......</p>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
   );
 }

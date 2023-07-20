@@ -2,7 +2,7 @@ import Table from "./Table";
 
 export default function TokenInfo() {
   return (
-    <div className="w-full lg:h-[96.87rem] overflow-hidden relative py-10 font-inter">
+    <div className="w-full lg:h-[110.87rem] overflow-hidden relative py-10 font-inter">
       <div className="whitespace-nowrap text-3xl lg:text-5xl font-['Cattino'] leading-[100px] text-green-400 relative w-full flex justify-center lg:mt-10">
         Token Information{" "}
       </div>
@@ -31,7 +31,7 @@ export default function TokenInfo() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center mt-[10%] lg:mt-32 w-full">
+      <div className="flex justify-center mt-[10%] lg:mt-32 w-full lg:mb-10">
         <Table />
       </div>
     </div>
