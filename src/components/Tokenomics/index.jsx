@@ -1,9 +1,15 @@
 import preguiça from "../../../public/preguiça.png";
 import esquilo from "../../../public/img/tokenomics/Group 46.png";
+import { useTranslation } from "react-i18next";
 
 export default function Tokenomics() {
+  const { t } = useTranslation();
+
   return (
-    <section id="tokenomics" className="w-full h-[900px] lg:h-[1550px] relative">
+    <section
+      id="tokenomics"
+      className="w-full h-[900px] lg:h-[1550px] relative"
+    >
       <div className="text-5xl font-['Cattino'] leading-[78px] capitalize text-green-400  w-full flex justify-center mt-52">
         Tokenomics
       </div>
@@ -47,17 +53,17 @@ export default function Tokenomics() {
       <div className="flex justify-center">
         <div className="absolute w-full max-w-[1920px] bottom-0 flex flex-row justify-around text-xs lg:text-2xl xl:text-3xl">
           <div className=" leading-5 lg:leading-8 xl:leading-10">
-            <p>8% Tax NFT's</p>
-            <p>3 % distributed to seller</p>
-            <p>4% distributed to holders</p>
-            <p>1% to charity</p>
+            <p>{t('tokenomics-card[0]-bottom-0')}</p>
+            <p>{t('tokenomics-card[0]-bottom-1')}</p>
+            <p>{t('tokenomics-card[0]-bottom-2')}</p>
+            <p>{t('tokenomics-card[0]-bottom-3')}</p>
           </div>
           <div className=" leading-5 lg:leading-8 xl:leading-10">
-            <p>No Tax</p>
-            <p>No Fees</p>
-            <p>Liquidity Locked for 2 years</p>
-            <p>Contract Renounced</p>
-            <p>1B Airdrop</p>
+            <p>{t('tokenomics-card[1]-bottom-0')}</p>
+            <p>{t('tokenomics-card[1]-bottom-1')}</p>
+            <p>{t('tokenomics-card[1]-bottom-2')}</p>
+            <p>{t('tokenomics-card[1]-bottom-3')}</p>
+            <p>{t('tokenomics-card[1]-bottom-4')}</p>
           </div>
         </div>
       </div>

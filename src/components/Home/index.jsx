@@ -15,26 +15,32 @@ import arrow from "../../../public/img/home/Arrow 1.png";
 import tree from "../../../public/h-tree-min.png";
 import tigerr from "../../../public/Tiger.png";
 
-export default function Home() {
-  const [openNav, setOpenNav] = React.useState(false);
+import { useTranslation } from "react-i18next";
 
+
+export default function Home() {
+
+  const { t } = useTranslation();
+
+  const [openNav, setOpenNav] = React.useState(false);
+  
   React.useEffect(() => {
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 960 && setOpenNav(false)
-    );
-  }, []);
-
-  const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+      );
+    }, []);
+    
+    const navList = (
+      <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
         color="white"
         className="p-1 font-normal"
-      >
+        >
         <a href="#home" className="flex items-center">
-          Home
+          {t("homeNav-home")}
         </a>
       </Typography>
       <Typography
@@ -44,7 +50,7 @@ export default function Home() {
         className="p-1 font-normal"
       >
         <a href="#about" className="flex items-center">
-          About
+          {t("homeNav-about")}
         </a>
       </Typography>
       <Typography
@@ -52,9 +58,9 @@ export default function Home() {
         variant="small"
         color="white"
         className="p-1 font-normal"
-      >
+        >
         <a href="#tokenomics" className="flex items-center">
-          Tokenomics
+          {t("homeNav-tokenomics")}
         </a>
       </Typography>
       <Typography
@@ -62,9 +68,9 @@ export default function Home() {
         variant="small"
         color="white"
         className="p-1 font-normal"
-      >
+        >
         <a href="#roadmap" className="flex items-center">
-          Roadmap
+          {t("homeNav-roadmap")}
         </a>
       </Typography>
       <Typography
@@ -74,7 +80,7 @@ export default function Home() {
         className="p-1 font-normal"
       >
         <a href="#howtobuy" className="flex items-center">
-          How to Buy
+          {t('homeNav-howtobuy')}
         </a>
       </Typography>
       {/* <Typography
@@ -89,6 +95,7 @@ export default function Home() {
       </Typography> */}
     </ul>
   );
+  
 
   return (
     <header
@@ -180,14 +187,10 @@ export default function Home() {
               color="white"
               className="text-3xl lg:text-6xl 2xl:text-7xl font-['Cattino'] leading-10 text-white justify-start relative lg:max-w-3xl 2xl:max-w-4xl z-10"
             >
-              Meme animals trading pixels for petals in their grand home coming
-              to the <span className="text-[#39f89c]">Flora-Fauna Fiesta</span>
+              {t('homeTitle')} <span className="text-[#39f89c]">{t('homeTitleSpan')}</span>
             </Typography>
             <Typography className="font-normal text-[#EAEAEA] relative z-10">
-              Bios World is proud to call Earth our home! While some may dream
-              of exploring Mars, we believe in cherishing and preserving the
-              natural wonders of our planet. With outstanding technology at our
-              fingertips{" "}
+              {t('homeSubtitle')}
             </Typography>
             <Link
               className="flex flex-row"
@@ -197,10 +200,10 @@ export default function Home() {
             >
               <Button className="bg-[#40a072] flex flex-row justify-center rounded-none relative px-4 z-10 lg:w-[17.25rem] lg:h-[5.625rem] items-center">
                 <span className="whitespace-nowrap md:text-lg lg:text-2xl leading-[39px] text-white relative p-2 w-1/2">
-                  Buy
+                  {t('homeButton')}
                 </span>
                 <img className="ml-2 p-3" src={arrow} alt="arrow" />
-              </Button>{" "}
+              </Button>
             </Link>
           </div>
           <img
