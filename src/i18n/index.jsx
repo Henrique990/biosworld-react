@@ -3,6 +3,9 @@ import i18n from 'i18next'
 import  enJson from "./translations/en.json"
 import frJson from "./translations/fr.json"
 import ptBRJson from "./translations/ptBR.json"
+import chJson from "./translations/ch.json"
+import rsJson from "./translations/rs.json"
+import spaJson from "./translations/spa.json"
 
 import { initReactI18next } from 'react-i18next'
 
@@ -14,7 +17,10 @@ i18n.use(initReactI18next).init({
     resources: {
         en: enJson,
         fr: frJson,
-        ptBR: ptBRJson
+        ptBR: ptBRJson,
+        ch: chJson,
+        rs: rsJson,
+        spa: spaJson,
         }
 })
 

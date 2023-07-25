@@ -13,7 +13,7 @@ import { LanguageSwitcher } from "../src/components/LanguageSwitcher";
 const App = () => {
   return (
     <div className="max-w-full h-full overflow-hidden bg-gradient-to-r from-[rgba(109,235,151,0.15)] via-[rgba(109,235,151,0.35)] to-[rgba(109,235,151,0.45)]">
-      <div className="fixed z-50 top-1/2 right-0">
+      <div className="fixed z-50 top-1/4 right-0">
         <LanguageSwitcher />
 
       </div>
