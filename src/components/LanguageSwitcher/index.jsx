@@ -4,6 +4,7 @@ import fr from "./assets/003-france.png";
 import ch from "./assets/china.png";
 import rs from "./assets/russia.png";
 import spa from "./assets/spain.png";
+import arabe from "./assets/arabe.png";
 
 import { useTranslation } from "react-i18next";
 
@@ -38,6 +39,11 @@ const languageOptions = [
         value: "spa",
         flag: spa
     },
+    {
+        name: "arabe",
+        value: "arabe",
+        flag: arabe
+    },
     
 
 ]
@@ -58,7 +64,7 @@ export const LanguageSwitcher = () => {
                      onClick={() => {
                             i18n.changeLanguage(languageOption.value);
                         }}>
-                            <img className="w-6 xl:w-8" src={languageOption.flag} alt={languageOption.name} />
+                            <img className="p-1 w-6 xl:w-8" src={languageOption.flag} alt={languageOption.name} />
                             {/* <span className="text-left">{languageOption.name}</span> */}
                         </button>
                 ))

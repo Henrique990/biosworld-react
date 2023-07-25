@@ -59,7 +59,7 @@ export default function Roadmap() {
           <div className="absolute top-48 space-y-2 sm:top-32 lg:top-20">
             <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
               <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
-                1. {t('Discovery')}
+                 {t('Discovery')}
               </h3>
             </div>
             <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
@@ -73,7 +73,7 @@ export default function Roadmap() {
           <div className="absolute bottom-16 left-[15%] space-y-2 sm:-bottom-12 lg:-bottom-48">
             <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
               <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
-                2. {t('Protection')}
+                 {t('Protection')}
               </h3>
             </div>
             <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
@@ -89,7 +89,7 @@ export default function Roadmap() {
           <div className="absolute top-24 left-[35%] space-y-2 sm:top-0 lg:-top-28">
             <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
               <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
-                3. {t('Restoration')}
+                 {t('Restoration')}
               </h3>
             </div>
             <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
@@ -106,7 +106,7 @@ export default function Roadmap() {
           <div className="absolute bottom-44 left-[50%] space-y-2 sm:bottom-20 lg:bottom-0">
             <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
               <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
-                4. {t('Sustainability')}
+                 {t('Sustainability')}
               </h3>
             </div>
             <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
@@ -122,7 +122,7 @@ export default function Roadmap() {
           <div className="absolute top-28 right-0 space-y-2 sm:-top-8 lg:-top-40">
             <div className="bg-green-500 w-24 rounded-md sm:w-36 lg:w-48 xl:w-80 xl:rounded-2xl">
               <h3 className="p-1 text-xs text-center font-['Cattino'] sm:text-sm lg:text-xl lg:p-2 xl:text-4xl">
-                5. {t('Education')}
+                 {t('Education')}
               </h3>
             </div>
             <div className="text-[7px] text-start sm:text-xs lg:text-base xl:text-2xl">
