@@ -19,7 +19,7 @@ import { useTranslation } from "react-i18next";
 
 
 export default function CardPayment() {
-  const [day, hour, minute, second] = useCountdown("Aug 25, 2023 00:00:00")
+  const [day, hour, minute, second] = useCountdown("Aug 20, 2023 00:00:00")
 
   const { t } = useTranslation();
 

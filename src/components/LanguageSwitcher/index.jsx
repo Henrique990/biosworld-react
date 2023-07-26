@@ -64,7 +64,7 @@ export const LanguageSwitcher = () => {
                      onClick={() => {
                             i18n.changeLanguage(languageOption.value);
                         }}>
-                            <img className="p-1 w-6 xl:w-8" src={languageOption.flag} alt={languageOption.name} />
+                            <img className="p-0 w-6 xl:w-8" src={languageOption.flag} alt={languageOption.name} />
                             {/* <span className="text-left">{languageOption.name}</span> */}
                         </button>
                 ))
