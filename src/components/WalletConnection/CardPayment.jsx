@@ -32,19 +32,19 @@ export default function CardPayment() {
           <div className="group-one flex flex-row space-x-4">
     <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
       <p>{day}</p>
-      <p>Days</p>
+      <p>{t('walletCountdown-days')}</p>
     </div>
     <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
       <p>{hour}</p>
-      <p>Hours</p>
+      <p>{t('walletCountdown-hours')}</p>
     </div>
     <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
       <p>{minute}</p>
-      <p>Minutes</p>
+      <p>{t('walletCountdown-minutes')}</p>
     </div>
     <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
       <p>{second}</p>
-      <p>Seconds</p>
+      <p>{t('walletCountdown-seconds')}</p>
     </div>
   </div>
 
