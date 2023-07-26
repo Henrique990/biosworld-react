@@ -12,13 +12,14 @@ import usdt from "../../../public/img/WalletConnection/usdt.png";
 import biosw from "../../../public/BIOSW 1.svg";
 import suricato from "../../../public/11 1-min.png";
 import bird from "../../../public/img/WalletConnection/bird-01 1.png";
-import MyPage from "./MyCountdown";
+import useCountdown from "../../hooks/useCountdown";
 
 import { useTranslation } from "react-i18next";
 
 
 
 export default function CardPayment() {
+  const [day, hour, minute, second] = useCountdown("Aug 25, 2023 00:00:00")
 
   const { t } = useTranslation();
 
@@ -28,7 +29,25 @@ export default function CardPayment() {
           <div className="flex justify-center">
             <h2 className="text-3xl 2xl:text-5xl mb-10 font-['Cattino'] text-[#40A072]">{t('walletTitle')}</h2>
           </div>
-          <MyPage />
+          <div className="group-one flex flex-row space-x-4">
+    <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
+      <p>{day}</p>
+      <p>Days</p>
+    </div>
+    <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
+      <p>{hour}</p>
+      <p>Hours</p>
+    </div>
+    <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
+      <p>{minute}</p>
+      <p>Minutes</p>
+    </div>
+    <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
+      <p>{second}</p>
+      <p>Seconds</p>
+    </div>
+  </div>
+
           <div className="group-two flex w-full h-5 rounded-md border border-gray-500 hover:border-green-300 bg-gray-700">
             <div className="bg-green-600 border-0 rounded-md text-sm px-4">
               <p>{t('walletCountdown-bars')}$0.00008</p>
