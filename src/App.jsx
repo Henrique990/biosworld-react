@@ -9,6 +9,7 @@ import TokenInfo from "./components/TokenInfo";
 import Tokenomics from "./components/Tokenomics";
 import WalletConnection from "./components/WalletConnection"
 import { LanguageSwitcher } from "../src/components/LanguageSwitcher";
+import Faqs from "./components/Faqs";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
 
       <Home />
       <WalletConnection />
+      <Faqs />
       <About />
       <Info />
       <Tokenomics />
