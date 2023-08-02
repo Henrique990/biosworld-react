@@ -7,7 +7,7 @@ export default function Faqs() {
     <section className="">
       <div className="container px-6 py-12 mx-auto">
         <h1 className="text-3xl my-10 font-['Cattino'] text-center font-semibold text-green-400 lg:text-5xl ">Frequently Asked Questions (FAQs)</h1>
-        <h2 className="text-2xl font-['Cattino'] text-center font-semibold text-gray-800 lg:text-3xl ">
+        <h2 className="text-2xl font-['Cattino'] text-center font-semibold text-white lg:text-3xl ">
           {t("faq-title")}
         </h2>
 
@@ -18,11 +18,11 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-1")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer1")}
               </p>
             </div>
@@ -34,11 +34,11 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-2")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-2")}
               </p>
             </div>
@@ -50,23 +50,23 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-3")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-3")}
               </p>
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-3-tier1")}
               </p>
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-3-tier2")}
               </p>
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-3-tier3")}
               </p>
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-3-tier4")}
               </p>
             </div>
@@ -78,11 +78,11 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-4")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-4")}
               </p>
             </div>
@@ -93,11 +93,11 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-5")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-5")}
               </p>
             </div>
@@ -109,11 +109,11 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-6")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-6")}
               </p>
             </div>
@@ -125,11 +125,11 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-7")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-7")}
               </p>
             </div>
@@ -140,11 +140,11 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-8")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-8")}
               </p>
             </div>
@@ -155,18 +155,18 @@ export default function Faqs() {
             </div>
 
             <div>
-              <h1 className="text-xl font-['Cattino'] font-semibold text-gray-700 ">
+              <h1 className="text-xl font-['Cattino'] font-semibold text-white ">
                 {t("faq-question-9")}
               </h1>
 
-              <p className="mt-2 font-semibold text-sm text-gray-500 ">
+              <p className="mt-2 font-semibold text-sm text-white ">
                 {t("faq-answer-9")}
               </p>
             </div>
           </div>
         </div>
         <div className="mt-10">
-          <p className="mt-2 text-center font-bold text-sm text-gray-500 ">
+          <p className="mt-2 text-center font-bold text-sm text-white ">
             {t("faq-text-finally")}
           </p>
         </div>
